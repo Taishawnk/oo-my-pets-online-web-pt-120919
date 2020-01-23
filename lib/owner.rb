@@ -43,6 +43,7 @@ def sell_pets
   
   dogs.each do |sell| sell.mood="nervous" 
   sell.owner=nil
+      end 
     end
   end
 end
