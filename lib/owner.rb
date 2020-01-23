@@ -39,7 +39,9 @@ def feed_cats
 end 
 def sell_pets
   cats.each {|sell| sell.mood="nervous" }
+  sell.owner=nil
   dogs.each {|sell| sell.mood="nervous" }
+  sell.owner=nil
 end
 end
 
