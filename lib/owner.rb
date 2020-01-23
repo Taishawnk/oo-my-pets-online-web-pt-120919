@@ -37,5 +37,8 @@ end
 def feed_cats
   cats.each {|feed| feed.mood ="happy"}
 end 
+def sell_pets 
+  
+end
 end
 
