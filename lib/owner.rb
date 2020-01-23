@@ -34,5 +34,8 @@ end
 def walk_dogs
 dogs.each {|walk| walk.mood = "happy" }
 end
+def feed_cat
+  cats.each {|feed| feed.mood ="happy"
 end 
+end
 
